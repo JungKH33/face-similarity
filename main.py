@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from deepface import DeepFace
 from sklearn.metrics.pairwise import cosine_similarity
+from sklearn.cluster import DBSCAN
 import seaborn as sns
 
 #test_img_path = r"C:\projects\utils\temp\examples\KakaoTalk_20240216_193742984_11.jpg"
@@ -28,7 +29,7 @@ def get_embeddings(dataset_path):
 
 import os
 dataset_dir = r"C:\projects\utils\temp\hairstyle"
-#dataset_dir = r"C:\projects\utils\temp\rotation"
+dataset_dir = r"C:\projects\utils\temp\rotation"
 output_dir = r"C:\projects\utils\temp\output"
 #dataset_dir = r"C:\projects\utils\temp\makeup_dataset"
 
@@ -81,13 +82,27 @@ for root, dirs, files in os.walk(dataset_dir):
 
         if len(embeddings) > 1:
             embeddings = np.array(embeddings)
-            cosine_similarity_matrix = cosine_similarity(embeddings)
 
-            print(cosine_similarity_matrix)
-            plt.figure(figsize=(8, 6))
-            sns.set(font_scale=1.2)
-            sns.heatmap(cosine_similarity_matrix, annot=True, cmap='coolwarm', fmt='.2f', cbar=True, square=True)
-            plt.title('Cosine Similarity Matrix')
-            plt.xlabel('Images')
-            plt.ylabel('Images')
-            plt.savefig(os.path.join(output_dir, file_name))
+            dbscan = DBSCAN(metric=metric, eps=0.5, min_samples=5)
+            labels = dbscan.fit_predict(embeddings)
+            unique_labels = np.unique(labels)
+
+            clusters = {label: [] for label in unique_labels}
+
+            for label, embedding in zip(labels, embeddings):
+                clusters[label].append(embedding)
+
+            for label in clusters:
+                clusters[label] = np.array(clusters[label])
+
+            print(clusters)
+
+            cosine_similarity_matrix = cosine_similarity(embeddings)
+            #print(cosine_similarity_matrix)
+            #plt.figure(figsize=(8, 6))
+            #sns.set(font_scale=1.2)
+            #sns.heatmap(cosine_similarity_matrix, annot=True, cmap='coolwarm', fmt='.2f', cbar=True, square=True)
+            #plt.title('Cosine Similarity Matrix')
+            #plt.xlabel('Images')
+            #plt.ylabel('Images')
+            #plt.savefig(os.path.join(output_dir, file_name))

@@ -1,0 +1,1 @@
+ArcFace_retinaface 0.4002

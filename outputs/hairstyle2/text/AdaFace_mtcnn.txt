@@ -1,0 +1,1 @@
+AdaFace_mtcnn 0.5885

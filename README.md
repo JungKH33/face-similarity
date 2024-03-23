@@ -1,7 +1,7 @@
 <!-- HEADER START -->
 <!-- src: https://github.com/kyechan99/capsule-render -->
 <p align="center"><a href="#">
-    <img width="100%" height="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:002868,50:0BEC31,100:0050F7, &height=220&section=header&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=40&text=Face%20Similarity%20Task" alt="header" />
+    <img width="100%" height="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:002868,50:0BEC31,100:0050F7,&height=220&section=header&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=40&text=Face%20Similarity%20Task" alt="header" />
 </a></p>
 
 <p align="center"><a href="https://github.com/JungKH33/face-similarity"><img src="./assets/logo.png", width=50%, height=50%, alt="logo"></a></p>

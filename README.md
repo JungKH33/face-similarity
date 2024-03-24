@@ -14,7 +14,7 @@
 <a href="mailto:melon345@yonsei.ac.kr">
     <img src="https://img.shields.io/badge/-Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Gmail"/>
 </a>
-<a href="[https://binne.notion.site/YAIXPOZALabs-1-e679cf3cf3854ef69bfabc5a377cbea2](https://www.notion.so/binne/YAI-X-POZAlabs-852ef538af984d99abee33037751547c)">
+<a href="https://www.notion.so/y-ai/AI-Park-aa64da8d44c64345ac24c9b040939359">
     <img src="https://img.shields.io/badge/-Project%20Page-000000?style=flat-square&logo=notion&logoColor=white" alt="NOTION"/>
 </a>
 <a href="https://www.notion.so/y-ai/7b3780c8172c425d87f6174ed159d99a?pvs=4">

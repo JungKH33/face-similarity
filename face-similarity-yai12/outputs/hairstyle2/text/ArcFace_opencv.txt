@@ -1,0 +1,1 @@
+ArcFace_opencv 0.8427

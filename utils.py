@@ -1,41 +1,44 @@
-import os
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
+from sklearn.metrics import pairwise_distances
 from sklearn.metrics.pairwise import cosine_similarity
-from sklearn.manifold import TSNE
-from sklearn.cluster import DBSCAN
 
-def plot_tsne(embeddings: np.ndarray, labels: np.ndarray):
-    # Reduce dimensionality using t-SNE
-    tsne = TSNE(n_components=2)
-    embedding_2d = tsne.fit_transform(embeddings)
+def plot_matrix(matrix):
+    plt.figure(figsize=(16, 12))
+    sns.heatmap(matrix, annot=True, cmap= 'coolwarm', fmt='.2f', cbar=True, square=True, vmin=-1, vmax=1)
+    plt.title('Matrix')
+    plt.xlabel('People')
+    plt.ylabel('People')
 
-    # Visualize the clusters
-    plt.scatter(embedding_2d[:, 0], embedding_2d[:, 1], c=labels, cmap='viridis')
-    plt.xlabel("t-SNE Dimension 1")
-    plt.ylabel("t-SNE Dimension 2")
-    plt.title("t-SNE Visualization")
-    plt.colorbar()
     plt.show()
 
-def plot_sim_matrix(matrix: np.ndarray):
-    # Plotting the heatmap
-    plt.figure(figsize=(8, 6))
-    sns.set(font_scale=1.2)
-    sns.heatmap(matrix, annot=True, cmap='coolwarm', fmt='.2f', cbar=True, square=True)
-    plt.title('Cosine Similarity Matrix')
-    plt.xlabel('Images')
-    plt.ylabel('Images')
-    plt.show()
+def save_matrix(matrix, save_path):
+    plt.figure(figsize=(16, 12))
+    sns.heatmap(matrix, annot=True, cmap= 'coolwarm', fmt='.2f', cbar=True, square=True, vmin=-1, vmax=1)
+    plt.title('Matrix')
+    plt.xlabel('People')
+    plt.ylabel('People')
 
-def clustering(embeddings: np.ndarray, metric = 'cosine'):
-    # Perform DBSCAN clustering
-    dbscan = DBSCAN(metric= metric, eps=0.5, min_samples=5)
-    labels = dbscan.fit_predict(embeddings)
-    return labels
+    plt.savefig(save_path, format='png')
+    plt.close()
 
+def calculate_similarity(embedding1, embedding2 = None, metric = 'cosine'):
+    metrics = {
+        'cosine': cosine_similarity,
+        'l2': pairwise_distances
+    }
 
+    if embedding2 is None:
+        similarity_matrix = metrics[metric](embedding1)
 
+    else:
+        similarity_matrix = metrics[metric](embedding1, embedding2)
 
+    return similarity_matrix
 
+def calculate_average(array, mask_diagonal = False):
+    if mask_diagonal:
+        mask = ~np.eye(array.shape[0], dtype=bool)
+        array = array[mask]
+    return np.average(array)

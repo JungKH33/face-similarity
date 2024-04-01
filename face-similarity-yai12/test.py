@@ -74,7 +74,7 @@ if __name__ == '__main__':
         'fastmtcnn'
     ]
     
-    dataset_dir = {'different': ['/path/to/your/dataset', './outputs/test/different'], 'rotation': ['/path/to/your/dataset', './outputs/test/rotation'], 'makeup': ['/path/to/your/dataset', './outputs/test/makeup'], 'hairstyle': ['/home/aipark/dataset/hairstyle', './outputs/test/hairstyle'], 'celeb': ['/path/to/your/dataset', './outputs/test/celeb']}
+    dataset_dir = {'different': ['/path/to/your/dataset', './outputs/test/different'], 'rotation': ['/path/to/your/dataset', './outputs/test/rotation'], 'makeup': ['/path/to/your/dataset', './outputs/test/makeup'], 'hairstyle': ['/path/to/your/dataset', './outputs/test/hairstyle'], 'celeb': ['/path/to/your/dataset', './outputs/test/celeb']}
     
     result = pd.DataFrame()
     

@@ -1,1 +1,0 @@
-AdaFace_opencv 0.8444

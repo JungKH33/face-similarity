@@ -8,8 +8,8 @@ def plot_matrix(matrix):
     plt.figure(figsize=(16, 12))
     sns.heatmap(matrix, annot=True, cmap= 'coolwarm', fmt='.2f', cbar=True, square=True, vmin=-1, vmax=1)
     plt.title('Matrix')
-    plt.xlabel('People')
-    plt.ylabel('People')
+    plt.xlabel('Index')
+    plt.ylabel('Index')
 
     plt.show()
 

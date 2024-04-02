@@ -1,2 +1,0 @@
-Model,Backend,Accuracy(agedb_30),Accuracy(cfp_fp),Accuracy(lfw),Accuracy(cplfw),Accuracy(calfw),Accuracy(avg),TPR,FPR,Threshold(agedb_30),Threshold(cfp_fp),Threshold(lfw),Threshold(cplfw),Threshold(calfw)
-Facenet512,opencv,0.5,0.5,0.5,0.5,0.5,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0

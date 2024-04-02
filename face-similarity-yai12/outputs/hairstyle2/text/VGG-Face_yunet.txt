@@ -1,1 +1,0 @@
-VGG-Face_yunet 0.5333

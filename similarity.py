@@ -34,16 +34,16 @@ metrics = ["cosine", "euclidean", "euclidean_l2"]
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Calculate similarity')
-    parser.add_argument('--dataset_path', type=str, help= 'Path to the dataset')
-    parser.add_argument('--save_path', type= str, help= 'Path to the save directory')
+    parser.add_argument('--i', type=str, help= 'Path to the dataset')
+    parser.add_argument('--o', type= str, help= 'Path to the save directory')
     parser.add_argument('--model', type=str, choices= models, default='Facenet512',
                         help='Choose a model from available options')
     parser.add_argument('--backend', type=str, choices= backends, default='retinaface',
                         help='Choose a backend from available options')
     args = parser.parse_args()
 
-    dataset_path = args.dataset_path
-    save_path = args.save_path
+    dataset_path = args.i
+    save_path = args.o
     model = args.model
     backend = args.backend
 
@@ -55,7 +55,6 @@ if __name__ == '__main__':
         results = DeepFace.represent_list(img_path_list = data_paths, model_name= model, detector_backend= backend, enforce_detection = False)
         embeddings = np.array([result['embedding'] for result in results])
         embeddings_list.append(embeddings)
-
 
     num_embeddings = len(embeddings_list)
     average_matrix = np.zeros((num_embeddings, num_embeddings))

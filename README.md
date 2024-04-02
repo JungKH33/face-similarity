@@ -99,7 +99,7 @@ This script calculates the average similarity between multiple people. If a save
 You can run the script with the following command:
 
 ```bash
-python similarity.py --i /path/to/dataset --o /path/to/save --model Facenet512 --backend retinaface
+python similarity.py --i <path_to_dataset> --o <path_to_save_directory> --n <number_of_pairs> [--model <model_name>] [--backend <backend_name>] [--metric <metric_name>]
 ```
 
 You can see the available models and backends by running:
@@ -113,6 +113,16 @@ python similarity.py --help
 ### Calculate Accuracy
 
 This script calculates the accuracy of a model. You can test different models, backends and thresholds which fits your dataset best.
+
+```bash
+python accuracy.py --i <path_to_dataset> --o <path_to_save_directory> --n <number_of_pairs> [--model <model_name>] [--backend <backend_name>] [--metric <metric_name>]
+```
+
+You can see the available models, backends, and metrics by running:
+```bash
+python similarity.py --help
+```
+
 
 # Building on DeepFace for experiments 🏗️🔬
 

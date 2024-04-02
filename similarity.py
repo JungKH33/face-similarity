@@ -76,6 +76,7 @@ if __name__ == '__main__':
         utils.plot_matrix(average_matrix)
 
     else:
+        save_path = utils.save_path_gen(save_path, model, backend, 'similarity', '.png')
         utils.save_matrix(average_matrix, save_path)
 
 

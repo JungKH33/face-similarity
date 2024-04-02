@@ -36,6 +36,8 @@ YAI x AIpark  <br>Face recognition model for virtual human generation<br>
 <hr>
 
 # Getting Started 🔥
+This project is based on the code from [DeepFace](https://github.com/serengil/deepface). We would like to acknowledge the contributors and maintainers of that repository for their valuable work.
+For detailed usage instructions and examples, please refer to the original repository's README.md file and documentation.
 ## Setup
 
 Before installing DeepFace, ensure you have Python 3.5.5 or higher installed. If you want to utilize GPU acceleration, you'll need to install TensorFlow with CUDA support prior to installing DeepFace.

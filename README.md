@@ -122,7 +122,7 @@ python accuracy.py --i <path_to_dataset> --o <path_to_save_directory> --n <numbe
 
 You can see the available models, backends, and metrics by running:
 ```bash
-python similarity.py --help
+python accuracy.py --help
 ```
 
 

@@ -223,7 +223,14 @@ Datasets
 
 ```
 ```bibtex
-@article{jin2018community, title={A community detection approach to cleaning extremely large face database}, author={Jin, Chi and Jin, Ruochun and Chen, Kai and Dou, Yong}, journal={Computational intelligence and neuroscience}, volume={2018}, year={2018}, publisher={Hindawi} }
+@article{jin2018community,
+    title={A community detection approach to cleaning extremely large face database},
+    author={Jin, Chi and Jin, Ruochun and Chen, Kai and Dou, Yong},
+    journal={Computational intelligence and neuroscience},
+    volume={2018},
+    year={2018},
+    publisher={Hindawi}
+}
 ```
 ```bibtex
 @article{kim2022style,

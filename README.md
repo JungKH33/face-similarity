@@ -137,7 +137,9 @@ Deepface is a lightweight face recognition and facial attribute analysis (age, g
 AdaFace is a novel approach for face recognition in low-quality datasets. AdaFace enhances the margin-based loss function by adapting to image quality, assigning varied importance to easy and hard samples based on their quality. By approximating image quality through feature norms, AdaFace outperforms state-of-the-art methods on multiple datasets, including IJB-B, IJB-C, IJB-S, and TinyFace.
 
 ## 2. Implement Adaface on Deepface by using ONNX
-TBD
+Although the recognition model initially did not include AdaFace, we wanted to incorporate AdaFace into the deepface library to evaluate its performance.
+
+We attempted to import the pretrained weights provided on the AdaFace GitHub repository into the deepface library. To facilitate interoperability and sharing between different deep learning frameworks, we utilized the ONNX open-source project to integrate the AdaFace model into deepface for comparison alongside other models. As a result, the AdaFace model could be utilized within the deepface library, allowing for comprehensive comparisons with other models.
 
 # Dataset 😊
 We made our own datasets to evaluate various combination of model and backend(detection). To evaluate the robustness of each features, we prepared datasets that can represent key features affect face similarity. We picked 6 to 14 identities considering gender, race, age from the datasets below.

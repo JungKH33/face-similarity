@@ -191,35 +191,77 @@ The detail of how to use our code will be uploaded soon.
 Frameworks <br><img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/> 
 
 ## Citations
+Models
 ```bibtex
-@misc{dai2019transformerxl,
-      title={Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context}, 
-      author={Zihang Dai and Zhilin Yang and Yiming Yang and Jaime Carbonell and Quoc V. Le and Ruslan Salakhutdinov},
-      year={2019},
-      eprint={1901.02860},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@inproceedings{kim2022adaface,
+title={AdaFace: Quality Adaptive Margin for Face Recognition},
+author={Kim, Minchul and Jain, Anil K and Liu, Xiaoming},
+booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+year={2022}
 }
 ```
 ```bibtex
-@misc{https://doi.org/10.48550/arxiv.1905.10887,
-  doi = {10.48550/ARXIV.1905.10887},
-  url = {https://arxiv.org/abs/1905.10887},
-  author = {Ravuri, Suman and Vinyals, Oriol},
-  keywords = {Machine Learning (cs.LG), Machine Learning (stat.ML), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  title = {Classification Accuracy Score for Conditional Generative Models},
-  publisher = {arXiv},
-  year = {2019},
-  copyright = {arXiv.org perpetual, non-exclusive license}
+@inproceedings{serengil2020lightface,
+  title = {LightFace: A Hybrid Deep Face Recognition Framework},
+  author = {Serengil, Sefik Ilkin and Ozpinar, Alper},
+  booktitle = {2020 Innovations in Intelligent Systems and Applications Conference (ASYU)},
+  pages = {23-27},
+  year = {2020},
+  doi = {10.1109/ASYU50717.2020.9259802},
+  url ={https://doi.org/10.1109/ASYU50717.2020.9259802}, organization = {IEEE}
 }
 ```
+Datasets
+```bibtex
+@inproceedings{bae2023digiface1m,
+    title={DigiFace-1M: 1 Million Digital Face Images for Face Recognition},
+    author={Bae, Gwangbin and de La Gorce, Martin and Baltru{\v{s}}aitis, Tadas and Hewitt, Charlie and Chen, Dong and Valentin, Julien and Cipolla, Roberto and Shen, Jingjing},
+    booktitle={2023 IEEE Winter Conference on Applications of Computer Vision (WACV)},
+    year={2023},
+    organization={IEEE}
+}
 
+```
 ```bibtex
-@inproceedings{hyun2022commu,
-  title={Com{MU}: Dataset for Combinatorial Music Generation},
-  author={Lee Hyun and Taehyun Kim and Hyolim Kang and Minjoo Ki and Hyeonchan Hwang and Kwanho Park and Sharang Han and Seon Joo Kim},
-  booktitle={Thirty-sixth Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
-  year={2022},
+@article{jin2018community, title={A community detection approach to cleaning extremely large face database}, author={Jin, Chi and Jin, Ruochun and Chen, Kai and Dou, Yong}, journal={Computational intelligence and neuroscience}, volume={2018}, year={2018}, publisher={Hindawi} }
+```
+```bibtex
+@article{kim2022style,
+  title={Style Your Hair: Latent Optimization for Pose-Invariant Hairstyle Transfer via Local-Style-Aware Hair Alignment},
+  author={Kim, Taewoo and Chung, Chaeyeon and Kim, Yoonseo and Park, Sunghyun and Kim, Kangyeol and Choo, Jaegul},
+  journal={arXiv preprint arXiv:2208.07765},
+  year={2022}
+}
+```
+```bibtex
+@misc{zhu2021barbershop,
+      title={Barbershop: GAN-based Image Compositing using Segmentation Masks},
+      author={Peihao Zhu and Rameen Abdal and John Femiani and Peter Wonka},
+      year={2021},
+      eprint={2106.01505},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
+```bibtex
+@inproceedings{gu2019ladn,
+  title={Ladn: Local adversarial disentangling network for facial makeup and de-makeup},
+  author={Gu, Qiao and Wang, Guanzhi and Chiu, Mang Tik and Tai, Yu-Wing and Tang, Chi-Keung},
+  booktitle={Proceedings of the IEEE International Conference on Computer Vision},
+  pages={10481--10490},
+  year={2019}
+}
+```
+```bibtex
+@article{gross2010multi,
+  title={Multi-pie},
+  author={Gross, Ralph and Matthews, Iain and Cohn, Jeffrey and Kanade, Takeo and Baker, Simon},
+  journal={Image and vision computing},
+  volume={28},
+  number={5},
+  pages={807--813},
+  year={2010},
+  publisher={Elsevier}
 }
 ```
 

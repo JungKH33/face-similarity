@@ -126,6 +126,7 @@ python accuracy.py --help
 ```
 
 ![Accuracy](assets/accuracy.png)
+
 *Figure 2: Example density graph created by the script. It calculates the appropriate threshold and its corresponding accuracy.*
 
 # Building on DeepFace for experiments 🏗️🔬

@@ -73,7 +73,7 @@ You can change the directory if you modify the model_path variable in `deepface/
 
 ### Download Datasets 
 
-The dataset we have provided can be downloaded from [this link](https://example.com/dataset.zip).
+The dataset we have provided can be downloaded from [this link](https://drive.google.com/drive/folders/1xQKjGDVOKOCC43JnXeyhbQcSug-U5474).
 
 If you want to add a custom dataset, the dataset should be in the following structure:
 
@@ -125,6 +125,8 @@ You can see the available models, backends, and metrics by running:
 python accuracy.py --help
 ```
 
+![Accuracy](assets/accuracy.png)
+*Figure 2: Example density graph created by the script. It calculates the appropriate threshold and its corresponding accuracy.*
 
 # Building on DeepFace for experiments 🏗️🔬
 
@@ -184,7 +186,6 @@ backends = [
 ]
 ```
 
-The detail of how to use our code will be uploaded soon.
 
 
 ## Skills

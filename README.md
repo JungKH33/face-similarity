@@ -24,10 +24,10 @@
 <br>Face recognition model for virtual human generation<br>
 
 # Members 👋
-<b> <a href="https://github.com/JungKH33">정경훈</a></b>&nbsp; :&nbsp; YAI 13th&nbsp; /&nbsp; melon345@yonsei.ac.kr<br>
-<b>  <a href="https://github.com/jmjmfasdf">서정민</a></b>&nbsp; :&nbsp; YAI 13th&nbsp; /&nbsp; jmme425@yonsei.ac.kr  <br>
-<b> <a href="https://github.com/Nugu-ai">박승호</a></b>&nbsp; :&nbsp; YAI 13th&nbsp; /&nbsp; gomi0904@yonsei.ac.kr <br>
-<b> <a href="https://github.com/Tim3s">홍지우</a></b>&nbsp; :&nbsp; YAI 13th&nbsp; /&nbsp; jiwoo0729@yonsei.ac.kr <br>
+<b> <a href="https://github.com/JungKH33">정경훈</a></b>&nbsp; :&nbsp; YAI 12th&nbsp; /&nbsp; melon345@yonsei.ac.kr<br>
+<b>  <a href="https://github.com/jmjmfasdf">서정민</a></b>&nbsp; :&nbsp; YAI 12th&nbsp; /&nbsp; jmme425@yonsei.ac.kr  <br>
+<b> <a href="https://github.com/Nugu-ai">박승호</a></b>&nbsp; :&nbsp; YAI 12th&nbsp; /&nbsp; gomi0904@yonsei.ac.kr <br>
+<b> <a href="https://github.com/Tim3s">홍지우</a></b>&nbsp; :&nbsp; YAI 12th&nbsp; /&nbsp; jiwoo0729@yonsei.ac.kr <br>
 <hr>
 
 # Getting Started 🔥
@@ -63,7 +63,7 @@ pip install -e .
 ```
 
 ### Download pretrained models
-To use AdaFace, download the ONNX file from [this link](https://example.com/adaface_model.onnx) and place it in the `weights/adaface` folder.
+To use AdaFace, download the ONNX file from [this link](https://drive.google.com/drive/folders/10_FVXnofz0EJh3bbWRoGN84ATHCZ66IE?usp=drive_link) and place it in the `weights/adaface` folder.
 You can change the directory if you modify the model_path variable in `deepface/basemodels/AdaFace`.
 
 ### Download Datasets 

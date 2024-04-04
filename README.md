@@ -4,11 +4,6 @@
     <img width="100%" height="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:002868,50:0BEC31,100:0050F7,&height=220&section=header&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=40&text=Face%20Similarity%20Task" alt="header" />
 </a></p>
 
-<p align="center"><a href="https://github.com/JungKH33/face-similarity"><img src="./assets/logo.png", width=50%, height=50%, alt="logo"></a></p>
-
-
-<p align="center">This project was carried out by <b><a href="https://github.com/yonsei-YAI">YAI 13th</a></b>, in cooperation with <b><a href="https://www.aipark.ai/">AIpark</a></b>.</p>
-
 <p align="center">
 <br>
 <a href="mailto:melon345@yonsei.ac.kr">
@@ -26,7 +21,7 @@
 <!-- HEADER END -->
 
 # Improving performance of Face Recogition for virtual human generation 👩‍💼
-YAI x AIpark  <br>Face recognition model for virtual human generation<br>
+<br>Face recognition model for virtual human generation<br>
 
 # Members 👋
 <b> <a href="https://github.com/JungKH33">정경훈</a></b>&nbsp; :&nbsp; YAI 13th&nbsp; /&nbsp; melon345@yonsei.ac.kr<br>

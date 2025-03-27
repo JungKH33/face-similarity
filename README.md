@@ -27,7 +27,7 @@
 <b> <a href="https://github.com/JungKH33">정경훈</a></b>&nbsp; :&nbsp; YAI 12th&nbsp; /&nbsp; melon345@yonsei.ac.kr<br>
 <b>  <a href="https://github.com/jmjmfasdf">서정민</a></b>&nbsp; :&nbsp; YAI 12th&nbsp; /&nbsp; jmme425@yonsei.ac.kr  <br>
 <b> <a href="https://github.com/Nugu-ai">박승호</a></b>&nbsp; :&nbsp; YAI 12th&nbsp; /&nbsp; gomi0904@yonsei.ac.kr <br>
-<b> <a href="https://github.com/Tim3s">홍지우</a></b>&nbsp; :&nbsp; YAI 12th&nbsp; /&nbsp; jiwoo0729@yonsei.ac.kr <br>
+<b> <a href="https://github.com/JiwooHong01">홍지우</a></b>&nbsp; :&nbsp; YAI 12th&nbsp; /&nbsp; jiwoo0729@yonsei.ac.kr <br>
 <hr>
 
 # Getting Started 🔥
